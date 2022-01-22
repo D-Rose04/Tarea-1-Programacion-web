@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 
+                'Gill Sans MT', 
+                Calibri,
+                'Trebuchet MS',
+                sans-serif;
+}
+
+header{
+    background-image: url("/assets/Diseño.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+
+
+.nav{
+    position: fixed;
+    padding: 20px;
+    margin: -20px 0px 0px -20px;
+    display: flex;
+    align-items: center;
+    width: 101%;
+    background-color: rgba(23, 24, 24, 0.705);
+    justify-content: space-between;
+}
+
+.menu{
+    
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu-item{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.menu-item:active{
+    color: brown;
+}
+
+.frontpage{
+    margin: 50px 0px 0px 0px;
+    padding: 50px;
+}
+
+.profileinfo{
+    margin: 150px 0px 0px 0px;
+}
+
+.profile{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px brown solid;    
+}
+.name{
+    font-size: 40px;
+}
+
+.p-text{
+    color: brown;
+}
+
+.s-text{
+    color: white;
+    font-size: 30px;
+}
+.d-text{
+    color: white;
+    
+}
+
+.description{
+    margin: 50px auto;
+    width: 800px;
+    font-size: 20px;
+    text-align: justify;
+}
+.uppercase{
+    text-transform: uppercase;
+}
