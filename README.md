@@ -1,3 +1,6 @@
 Esta es la tarea #1 de David Hernandez referente a la asignatura programacion web.
 
-![Capturas de pantalla del resultado](Captura1.png)
+Capturas del resultado:
+<img src="Captura1.PNG">
+<img src="Captura2.PNG">
+
