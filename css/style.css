@@ -62,7 +62,7 @@ header{
 }
 
 .profileinfo{
-    margin: 150px 0px 0px 0px;
+    margin: 130px 0px 0px 0px;
 }
 
 .profile{
@@ -70,9 +70,24 @@ header{
     margin: 20px auto;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
     border: 4px rgba(255, 230, 3, 0.699) solid;    
+    border-radius: 50%;
 }
+
+.socialmedia{
+    margin: 20px auto;  
+    justify-content: center;
+}
+
+.socialmedia a img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 15px;
+    background-color: white;
+    border-radius: 80%;
+    border: 2px solid black;
+}
+
 .name{
     font-size: 40px;
 }
@@ -85,6 +100,7 @@ header{
     color: rgb(248, 245, 245);
     font-size: 30px;
 }
+
 .d-text{
     color: white;
     
@@ -107,18 +123,22 @@ header{
 }
 
 .skills{
-    margin: 100px 0px 0px 20px;
+    margin: 100px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .skillsimg{
     display: block;
-    margin: 20px auto;
-    width: 100px;
-    height: 100px;
-    border-radius: 35%;
-    padding: 15px;
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    padding: 5px;
     border: 3px rgb(196, 196, 196) solid;  
 }
+
 .line{
     background-color: rgb(196, 196, 196);
     height: 120px;
@@ -126,3 +146,10 @@ header{
     margin: -15px auto;
 }
 
+.contact{
+    margin: 200px 0px 0px 0px;
+}
+
+.center{
+    justify-content: center;
+}
