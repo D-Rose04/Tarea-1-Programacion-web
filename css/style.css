@@ -216,3 +216,7 @@ header{
     color: white;
     background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
 }
+.video{
+    justify-content: center;
+    margin: 50px 0px -30px 0px;
+}
