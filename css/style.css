@@ -10,7 +10,6 @@ body{
                 Calibri,
                 'Trebuchet MS',
                 sans-serif;
-    
 }
 
 header{
@@ -93,7 +92,7 @@ header{
 }
 
 .p-text{
-    color: rgb(255, 217, 0);
+    color: rgb(255, 251, 0);
 }
 
 .s-text{
@@ -126,7 +125,6 @@ header{
     margin: 100px 0px 0px 0px;
     justify-content: center;
     align-items: center;
-
 }
 
 .skillsimg{
@@ -148,8 +146,73 @@ header{
 
 .contact{
     margin: 200px 0px 0px 0px;
+    padding: 15px;
+        
 }
 
 .center{
     justify-content: center;
+}
+
+.form{
+    width: 35%;
+    margin: 50px 0px 0px 80px;
+    text-align: justify;
+}
+
+.form form input,.form form textarea{
+    display: block ;
+    margin: 25px 15px;
+    padding: 10px;
+    width: 450px;
+    
+}
+
+.form form button{
+    display: block ;
+    margin: 25px 15px;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.form p, .form h2{
+    margin: 5px 0px 0px 15px;
+} 
+
+.contactinfo{   
+    text-align: center;
+    margin: 0px 0px 0px 50px;
+    display: block;
+}
+
+.contactimg{
+    margin: 15px auto;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.contactline{
+    background-color: rgb(196, 196, 196);
+    height: 350px;
+    width: 2px;
+    margin: 120px 0px 0px 60px;
+}
+
+.contactinfo-b{
+    margin: 60px 0px 30px 0px;
+    
+}
+
+.contactsection{
+    margin-top: 20px;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: black 10px 10px 30px;
+    color: white;
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
 }
